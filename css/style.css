@@ -1,0 +1,927 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+}
+body{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+a, a:hover{
+    text-decoration: none ;
+}
+
+h1, h2, h3, h4, h5, h5{
+    font-family: 'Oswald', sans-serif;
+
+}
+.header{
+    width: 100% ;
+    padding: 10px 0px ;
+    background: #303030 ;
+    position: relative;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+    background: #303030;
+}
+.header .menu .fa-search{
+    color: #fff;
+    font-size: 22px;
+}
+.header .nav-link{
+    color: #fff;
+    font-size: 16px ;
+    text-transform: uppercase ;
+    margin: 0px 30px 0px 0px;
+    font-weight: 600 ;
+}
+.header .navbar-nav .nav-link.active{
+    color: #e8631c;
+}
+.header .nav-link:hover{
+    color: #e8631c;
+    transition: 1s ;
+}
+.header .nav-link:focus{
+    color: #e8631c;
+    transition: 1s ;
+}
+.banner{
+    width: 100% ;
+    padding: 80px 0px ;
+    background: url(../images/banner.png) center top no-repeat ;
+    background-size: cover ;
+    margin: -80px 0px 0px 0px ;
+    z-index: 1 ;
+    
+}
+.banner .gruop{
+    padding: 160px 0px 80px 0px
+}
+.banner h1{
+    color: #fff;
+    font-size: 60px ;
+    font-weight: 600 ;
+    letter-spacing: 1px ;
+    line-height: 1.7em ;
+    
+}
+.banner p{
+    font-size: 20px ;
+    color: #fff;
+    font-weight: 400 ;
+    line-height: 1.7em ;
+    padding-bottom: 20px ;
+}
+
+.banner .btn-primary{
+    padding: 10px 60px ;
+    border-radius: 4px ;
+    background: #FF6309 ;
+    border: 1px solid #e8631c ;
+    font-size: 20px ;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+}
+.banner .btn-primary:hover{
+    background: transparent ;
+    border: 1px solid #FF6309 ;
+    color: #FF6309;
+}
+.banner .btn-primary:focus{
+    background: transparent ;
+    border: 1px solid #FF6309 ;
+    color: #FF6309;
+}
+.feature{
+    width: 100% ;
+    background: #FF6309 ;
+    padding: 0px 0px 50px;
+    
+}
+/* global css here */
+.title{
+    width: 100% ;
+    text-align: center ;
+    margin-top: 50px  ;
+}
+.title h1{
+    font-size: 60px ;
+    color: #fff;
+    font-weight: 600 ;
+    letter-spacing: 1px ;
+    line-height: 1.7em ;
+    text-transform: uppercase ;
+}
+.title p{
+    font-size: 20px ;
+    color: #fff;
+    font-weight: 400 ;
+    line-height: 1.7em ;
+}
+/* global css end */
+
+.feature-img{
+    width: 100% ;
+    background: #303030 ;
+    text-align: center ;
+    margin: 50px  0px;
+  
+}
+.feature-img img{
+    width: 100% ;
+}
+.feature-content{
+    padding: 20px 0px ;
+}
+.feature-content h1{
+    font-size: 42px ;
+    color: #fff;
+    text-transform: uppercase ;
+    font-weight: 400 ;
+
+}
+.feature-content p{
+    font-size: 20px ;
+    color: #fff;
+}
+
+.feature-short{
+    width: 100% ;
+    background: #303030 ;
+    padding: 20px 0px 50px ;
+}
+.img-box{
+    width: 100% ;
+    padding: 38px 0px;
+    text-align: center ;
+    background: #FF6309 ;
+    margin: 50px 0px ;
+}
+.img-box h1{
+    font-size: 36px ;
+    color: #fff;
+    text-transform: uppercase ;
+    font-weight: 400 ;
+    margin: 40px  0px 15px;
+}
+.img-box p{
+    width: 100% ;
+    font-size: 20px ;
+    color: #fff;
+    line-height: 1.3em ;
+}
+.img-box .btn-info{
+    font-size: 20px ;
+    color: #fff;
+    padding: 10px 90px ;
+    background: #303030;
+    border: 1px solid #303030 ;
+    font-weight: 600 ;
+    margin-top: 10px ;
+    border-radius: 0px ;
+}
+.img-box .btn-info:hover{
+    background: transparent ;
+    color: #303030;
+    border: 2px solid #303030 ;
+    transition: 1s ;
+}
+.img-box .btn-info:focus{
+    background: transparent ;
+    color: #303030;
+    border: 2px solid #303030 ;
+    transition: 1s ;
+}
+.dance-long{
+    width: 100% ;
+    background: #303030;
+}
+.dance-long img{
+    width: 100% ;
+}
+.dance-long .dance-box{
+    width: 100% ;
+    background: #FF6309 ;
+    padding:200px 0px ;
+}
+.dance-long .dance-box .title{
+    width: 100% ;
+}
+.dance-long .title .btn-primary{
+    padding: 10px 60px ;
+    border-radius: 4px ;
+    background: #303030 ;
+    border: 1px solid #e8631c ;
+    font-size: 20px ;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-top: 15px ;
+}
+
+.dance-long .title .btn-primary:hover{
+    background: transparent ;
+    border: 1px solid #303030 ;
+    color: #303030;
+    transition: 1s ;
+}
+.banner .btn-primary:focus{
+    background: transparent ;
+    border: 1px solid #FF6309 ;
+    color: #FF6309;
+}
+
+
+
+
+
+
+.statitics{
+    width: 100% ;
+    padding:10px 0px 120px 0px ;
+    text-align: center ;
+    background-color: #303030;
+}
+.statitics h1{
+    color: #fff;
+    line-height: 1.3em ;
+    font-weight: 600 ;
+    padding-top: 70px  ;
+    margin-bottom: 30px ;
+}
+.statitics p{
+    color: #fff;
+    font-size: 20px ;
+    font-weight: 400 ;
+}
+.trainer{
+    width: 100% ;
+    padding: 250px 0px ;
+    background: url(../images/trainer.png) center top no-repeat ;
+    background-size: cover ;
+    text-align: center ;
+}
+.trainer h1{
+    font-size: 56px ;
+    color: #fff;
+    text-transform: uppercase ;
+    font-weight: 500 ;
+}
+.trainer p{
+    color: #fff;
+    font-size: 30px ;
+    font-weight: 400 ;
+}
+.subscribe{
+    width: 100% ;
+    padding: 10px 0px 90px ;
+    background-color: #FF6309;
+}
+.input-designe{
+    width: 100% ;
+    text-align: center ;
+  
+}
+.input-designe ::placeholder{
+    color: #303030;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    font-weight: 500 ;
+}
+.input-designe .form-control{
+    margin-top: 30px ;
+    border-radius: 0px ;
+    border: 1px solid #fff ;
+    box-shadow: none;
+}
+.input-designe .form-control:hover{
+    box-shadow: none ;
+    border: 1px solid #fff ;
+    transition: 1s ;
+}
+.input-designe .btn-info{
+    text-align: center;
+    font-size: 17px ;
+    color: #fff;
+    margin-top: 30px ;
+    background: #303030;
+    border: 1px solid #303030 ;
+    font-weight: 600 ;
+    border-radius: 0px ;
+    text-transform: uppercase ;
+}
+.input-designe .btn-info:hover{
+    background: transparent ;
+    color: #303030;
+    border: 2px solid #303030 ;
+    transition: 1s ;
+}
+.input-designe .btn-info:focus{
+    background: transparent ;
+    color: #303030;
+    border: 2px solid #303030 ;
+    transition: 1s ;
+}
+.footer{
+    width: 100% ;
+    padding: 80px 0px 40px ;
+    background-color: #303030;
+}
+.footer h1{
+    color: #fff;
+    font-size: 32px ;
+    font-weight: 600 ;
+    line-height: 1.7em ;
+    margin: 0px 0px 15px 0px ;
+}
+.footer p{
+    color: #fff;
+    font-size: 16 ;
+    font-weight: 600 ;
+    margin:0px 0px 20px 0px ;
+}
+.footer li{
+    color: #fff;
+    font-size: 25px ;
+    line-height: 1.7em ;
+    margin: 0px 15px 0px 0px ;
+}
+
+.footer .active{
+    font-size: 20px ;
+    font-weight: 700 ;
+}
+.footer ul{
+    padding: 0px ;
+}
+.footer ul li{
+    list-style: none ;
+    font-size: 18px ;
+}
+
+
+/* css media queary start */
+
+/*screen resulation : 279px to 379px
+* most of the folding mobile phone-like galaxy fold
+ */
+
+@media (min-width:279px) and (max-width:319px) {
+/* css start  */
+
+
+
+
+/* css end  */
+
+}
+
+
+/*screen resulation : 320px to 480px
+* most of the mobile phone 
+ */
+
+ @media (min-width:320px) and (max-width:480px) {
+/* css start  */
+.header .navbar-toggler{
+     background:#FF6309 ;
+     border-radius: 0px ;
+                
+}
+.header .navbar-toggler .fa-bars{
+     color: #fff;
+
+ }
+ .header .nav-link{
+    font-size: 14px ;
+    margin: 0px 20px 0px 0px;
+ }
+.banner {
+     width: 100%;
+     padding: 30px 0px;
+     margin: -40px 0px 0px 0px;
+    
+}   
+ .banner .gruop {
+               
+}  
+.banner img{
+     width: 100% ;
+}
+    
+.banner h1{
+    font-size: 32px ;
+}
+
+.banner p{
+    font-size: 14px ;
+    padding-bottom: 8px ;
+}
+.banner .btn-primary{
+    padding: 5px 15px ;
+    font-size: 14px ;
+    font-weight: 400 ;
+}
+.feature{
+    padding: 0px ;
+}
+.feature .title{
+    margin: 50px 0px;
+}
+.feature img{
+    margin:-50px 0px 0px 0px ;
+}
+.feature .title h1{
+    font-size: 32px ;
+}
+.feature .title p{
+    font-size: 14px ;
+}
+.feature-content{
+    padding: 20px 0px ;
+}
+.feature-content h1{
+    font-size: 26px ;
+}
+.feature-content p{
+    font-size: 14px ;
+}
+.feature-short{
+    padding:0px ;
+}
+.feature-short .title h1{
+    font-size: 32px ;
+}
+
+.feature-short .title p{
+    font-size: 14px ;
+}
+.feature-short .img-box{
+    padding: 30px 0px ;
+    margin: 20px 0px ;
+}
+.img-box h1{
+    font-size: 26px ;
+    margin: 20px 0px 10px ;
+}   
+.img-box p{
+    font-size: 14px ;
+}
+
+.img-box .btn-info{
+    font-size:14px ;
+    padding: 5px 40px ;
+}
+.dance-long .dance-box {
+    width: 100%;
+    background: #FF6309;
+    padding: 0px 0px;
+}
+
+.dance-long .dance-box .title {
+    margin-bottom: 0px;
+    padding: 50px 0px
+}
+.img-fluid {
+    margin: 50px 0px 0px 0px;
+}
+.dance-long .dance-box .title h1{
+    font-size: 32px ;
+}
+.dance-long .dance-box .title p{
+    font-size: 14px ;
+}
+
+.dance-long .title .btn-primary {
+    padding: 10px 40px;
+    font-size: 14px ;
+    margin-top: 10px;
+}
+.statitics .title {
+    margin-top: 0px;
+}
+.statitics .title h1{
+    font-size: 32px ;
+    padding: 30px 0px ;
+    margin-bottom: 0px ;
+}
+.statitics .title p{
+    font-size: 14px ;
+}
+.statitics h1 {
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.statitics {
+    padding: 10px 0px 30px 0px ;
+}
+.trainer {
+    width: 100%;
+    padding: 250px 0px;
+    background: url(../images/trainer.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.trainer h1{
+    font-size: 40px ;
+}
+.trainer p{
+    font-size: 20px ;
+}
+.subscribe .title{
+    margin-top: 30px ;
+}
+.subscribe .title h1{
+    font-size: 32px ;
+}
+.subscribe .title p{
+    font-size: 14px ;
+}
+.subscribe {
+    padding: 0px 0px 40px 0px;
+}
+.input-designe .btn-info {
+    font-size: 14px;
+    padding: 10px 40px;
+   
+}
+.footer {
+    padding: 30px 0px 20px;
+}
+
+
+
+
+
+/* css end  */
+
+
+}
+
+/*screen resulation : 279px to 379px
+* most of the mobile phone and low resulation tab
+ */
+
+ @media (min-width:481px) and (max-width:767px) {
+ /* css start  */
+ .header .navbar-toggler{
+    background:#FF6309 ;
+    border-radius: 0px ;
+               
+}
+.header .navbar-toggler .fa-bars{
+    color: #fff;
+
+}
+.header .nav-link{
+   font-size: 15px ;
+   margin: 0px 25px 0px 0px;
+}
+.banner {
+    width: 100%;
+    padding: 35px 0px;
+    margin: -45px 0px 0px 0px;
+   
+}   
+.banner .gruop {
+              
+}  
+.banner img{
+    width: 100% ;
+}
+   
+.banner h1{
+   font-size: 33px ;
+}
+
+.banner p{
+   font-size: 15px ;
+   padding-bottom: 9px ;
+}
+.banner .btn-primary{
+   padding: 6px 15px ;
+   font-size: 15px ;
+   font-weight: 400 ;
+}
+.feature{
+   padding: 0px ;
+}
+.feature .title{
+   margin: 55px 0px;
+}
+.feature img{
+   margin:-55px 0px 0px 0px ;
+}
+.feature .title h1{
+   font-size: 33px ;
+}
+.feature .title p{
+   font-size: 15px ;
+}
+.feature-content{
+   padding: 25px 0px ;
+}
+.feature-content h1{
+   font-size: 27px ;
+}
+.feature-content p{
+   font-size: 15px ;
+}
+.feature-short{
+   padding:0px ;
+}
+.feature-short .title h1{
+   font-size: 33px ;
+}
+
+.feature-short .title p{
+   font-size: 15px ;
+}
+.feature-short .img-box{
+   padding: 35px 0px ;
+   margin: 25px 0px ;
+}
+.img-box h1{
+   font-size: 27px ;
+   margin: 25px 0px 15px ;
+}   
+.img-box p{
+   font-size: 15px ;
+}
+
+.img-box .btn-info{
+   font-size:15px ;
+   padding: 7px 42px ;
+}
+.dance-long .dance-box {
+   width: 100%;
+   background: #FF6309;
+   padding: 0px 0px;
+}
+
+.dance-long .dance-box .title {
+   margin-bottom: 0px;
+   padding: 55px 0px
+}
+.img-fluid {
+   margin: 55px 0px 0px 0px;
+}
+.dance-long .dance-box .title h1{
+   font-size: 33px ;
+}
+.dance-long .dance-box .title p{
+   font-size: 15px ;
+}
+
+.dance-long .title .btn-primary {
+   padding: 11px 42px;
+   font-size: 15px ;
+   margin-top: 15px;
+}
+.statitics .title {
+   margin-top: 0px;
+}
+.statitics .title h1{
+   font-size: 33px ;
+   padding: 35px 0px ;
+   margin-bottom: 0px ;
+}
+.statitics .title p{
+   font-size: 15px ;
+}
+.statitics h1 {
+   padding-top: 31px;
+   margin-bottom: 15px;
+}
+
+.statitics {
+   padding: 15px 0px 35px 0px ;
+}
+.trainer {
+   width: 100%;
+   padding: 250px 0px;
+   background: url(../images/trainer.png) center top no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+.trainer h1{
+   font-size: 41px ;
+}
+.trainer p{
+   font-size: 21px ;
+}
+.subscribe .title{
+   margin-top: 35px ;
+}
+.subscribe .title h1{
+   font-size: 33px ;
+}
+.subscribe .title p{
+   font-size: 15px ;
+}
+.subscribe {
+   padding: 0px 0px 45px 0px;
+}
+.input-designe .btn-info {
+   font-size: 14px;
+   padding: 15px 45px;
+  
+}
+.footer {
+   padding: 35px 0px 25px;
+}
+ 
+        
+        
+        
+/* css end  */
+    
+    
+}
+
+/*screen resulation : 768px to 1024px
+* most of the tablate , notebook  ipads
+ */
+
+ @media (min-width:768px) and (max-width:1024px) {
+/* css start  */
+.header .navbar-toggler{
+    background:#FF6309 ;
+    border-radius: 0px ;
+               
+}
+.header .navbar-toggler .fa-bars{
+    color: #fff;
+
+}
+.header .nav-link{
+   font-size: 15px ;
+   margin: 0px 35px 0px 0px;
+}
+.banner {
+    width: 100%;
+    padding: 50px 0px;
+    margin: -65px 0px 0px 0px;
+   
+}    
+.banner img{
+    width: 100% ;
+}
+   
+.banner h1{
+   font-size: 37px ;
+}
+
+.banner p{
+   font-size: 18px ;
+   padding-bottom: 15px ;
+}
+.banner .btn-primary{
+   padding: 10px 25px ;
+   font-size: 15px ;
+   font-weight: 400 ;
+}
+.feature{
+   padding: 0px ;
+}
+.feature .title{
+   margin: 60px 0px;
+}
+.feature img{
+   margin:-65px 0px 0px 0px ;
+}
+.feature .title h1{
+   font-size: 37px ;
+}
+.feature .title p{
+   font-size: 18px ;
+}
+.feature-content{
+   padding: 40px 0px ;
+}
+.feature-content h1{
+   font-size: 32px ;
+}
+.feature-content p{
+   font-size: 18px ;
+}
+.feature-short{
+   padding:0px ;
+}
+.feature-short .title h1{
+   font-size: 42px ;
+}
+
+.feature-short .title p{
+   font-size: 18px ;
+}
+.feature-short .img-box{
+   padding: 50px 0px ;
+   margin: 40px 0px ;
+}
+.img-box h1{
+   font-size: 32px ;
+   margin: 40px 0px 25px ;
+}   
+.img-box p{
+   font-size: 18px ;
+}
+
+.img-box .btn-info{
+   font-size:18px ;
+   padding: 10px 60px ;
+}
+.dance-long .dance-box {
+   width: 100%;
+   background: #FF6309;
+   padding: 0px 0px;
+}
+
+.dance-long .dance-box .title {
+   margin-bottom: 0px;
+   padding: 65px 0px
+}
+.img-fluid {
+   margin: 70px 0px 0px 0px;
+}
+.dance-long .dance-box .title h1{
+   font-size: 37px ;
+}
+.dance-long .dance-box .title p{
+   font-size: 18px ;
+}
+
+.dance-long .title .btn-primary {
+   padding: 15px 55px;
+   font-size: 18px ;
+   margin-top: 30px;
+}
+.statitics .title {
+   margin-top: 0px;
+}
+.statitics .title h1{
+   font-size: 37px ;
+   padding: 50px 0px ;
+   margin-bottom: 0px ;
+}
+.statitics .title p{
+   font-size: 18px ;
+}
+.statitics h1 {
+   padding-top: 35px;
+   margin-bottom: 30px;
+}
+
+.statitics {
+   padding: 30px 0px 50px 0px ;
+}
+.trainer {
+   width: 100%;
+   padding: 250px 0px;
+   background: url(../images/trainer.png) center top no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+.trainer h1{
+   font-size: 46px ;
+}
+.trainer p{
+   font-size: 25px ;
+}
+.subscribe .title{
+   margin-top: 50px ;
+}
+.subscribe .title h1{
+   font-size: 37px ;
+}
+.subscribe .title p{
+   font-size: 18px ;
+}
+.subscribe {
+   padding: 0px 0px 60px 0px;
+}
+.input-designe .btn-info {
+   font-size: 18px;
+   padding: 20px 55px;
+  
+}
+.footer {
+   padding: 55px 0px 40px;
+}
+ 
+           
+           
+           
+ /* css end  */
+       
+       
+}
